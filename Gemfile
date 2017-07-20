@@ -8,7 +8,13 @@ end
 gem 'devise'
 gem 'rb-readline'
 gem 'active_model_serializers'
-gem 'ffaker'
+gem 'actionpack'
+gem 'activemodel'
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
@@ -47,6 +53,8 @@ group :development, :test do
   gem 'pry'
   gem 'factory_girl_rails'
   gem 'rspec-rails'
+  gem 'ffaker'
+  gem "shoulda-matchers"
 end
 
 group :development do
