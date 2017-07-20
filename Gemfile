@@ -8,13 +8,17 @@ end
 gem 'devise'
 gem 'rb-readline'
 gem 'active_model_serializers'
-gem 'actionpack'
-gem 'activemodel'
-gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
-gem 'compass-rails'
-gem 'furatto'
-gem 'font-awesome-rails'
-gem 'simple_form'
+
+
+# Group below is having issues installing. Stuck in ch.3.
+# gem 'actionpack'
+# gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+# gem 'compass-rails'
+# gem 'furatto'
+# gem 'font-awesome-rails'
+# gem 'simple_form'
+
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
